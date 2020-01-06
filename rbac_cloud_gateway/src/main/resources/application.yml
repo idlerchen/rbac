@@ -1,0 +1,10 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: rbac-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 129.211.159.145:8848
