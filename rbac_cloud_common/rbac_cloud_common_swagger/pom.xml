@@ -11,5 +11,12 @@
 
     <artifactId>rbac_cloud_common_swagger</artifactId>
 
-
+    <dependencies>
+        <!--swagger 依赖-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.fox.version}</version>
+        </dependency>
+    </dependencies>
 </project>

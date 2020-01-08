@@ -13,6 +13,7 @@
         <module>../rbac_cloud_gateway</module>
         <module>../rbac_cloud_upms</module>
         <module>../rbac_cloud_codegen</module>
+        <module>../rbac_cloud_monitor</module>
     </modules>
 
     <properties>
