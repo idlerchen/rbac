@@ -12,6 +12,7 @@
         <module>../rbac_cloud_auth</module>
         <module>../rbac_cloud_gateway</module>
         <module>../rbac_cloud_upms</module>
+        <module>../rbac_cloud_codegen</module>
     </modules>
 
     <properties>
