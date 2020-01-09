@@ -14,6 +14,7 @@
         <module>../rbac_cloud_upms</module>
         <module>../rbac_cloud_codegen</module>
         <module>../rbac_cloud_monitor</module>
+        <module>../rbac_cloud_regiter</module>
     </modules>
 
     <properties>
