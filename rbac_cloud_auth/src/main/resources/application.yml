@@ -7,17 +7,9 @@ spring:
     nacos:
       discovery:
         server-addr: 129.211.159.145:8848
-  datasource:
-    password: 1234
-    username: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://129.211.159.145:3306/pig
-
-  redis:
-    host: 129.211.159.145
-    port: 6379
-    password: 1234
-
-
-
-
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml
+        shared-dataids: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  profiles:
+    active: @profiles.active@
