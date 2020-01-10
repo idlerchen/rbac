@@ -16,7 +16,7 @@
 
 package com.xxy.common.security.component;
 
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
+import com.xxy.common.core.constants.SecurityConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
@@ -43,7 +43,7 @@ public class RbacSecurityBeanDefinitionRegistrar implements ImportBeanDefinition
 		}
 
 		GenericBeanDefinition beanDefinition = new GenericBeanDefinition();
-		beanDefinition.setBeanClass(PigResourceServerConfigurerAdapter.class);
+		beanDefinition.setBeanClass(RbacResourceServerConfigurerAdapter.class);
 		registry.registerBeanDefinition(SecurityConstants.RESOURCE_SERVER_CONFIGURER, beanDefinition);
 
 	}
