@@ -4,17 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xxy</groupId>
-    <artifactId>rbac_cloud_parent</artifactId>
+    <artifactId>rbac-cloud-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>../rbac_cloud_common</module>
-        <module>../rbac_cloud_auth</module>
-        <module>../rbac_cloud_gateway</module>
-        <module>../rbac_cloud_upms</module>
-        <module>../rbac_cloud_codegen</module>
-        <module>../rbac_cloud_monitor</module>
-        <module>../rbac_cloud_regiter</module>
+        <module>../rbac-cloud-common</module>
+        <module>../rbac-cloud-auth</module>
+        <module>../rbac-cloud-gateway</module>
+        <module>../rbac-cloud-upms</module>
+        <module>../rbac-cloud-codegen</module>
+        <module>../rbac-cloud-monitor</module>
+        <module>../rbac-cloud-regiter</module>
     </modules>
 
     <properties>
