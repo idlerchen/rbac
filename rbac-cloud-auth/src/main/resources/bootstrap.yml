@@ -2,7 +2,7 @@ server:
   port: 8040
 spring:
   application:
-    name: auth-center
+    name: @artifactId@
   cloud:
     nacos:
       discovery:
