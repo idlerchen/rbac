@@ -1,0 +1,5 @@
+com\xxy\common\core\constants\CommonConstants.class
+com\xxy\common\core\constants\SecurityConstants.class
+com\xxy\common\core\util\R.class
+com\xxy\common\core\constants\CacheConstants.class
+com\xxy\common\core\constants\ServiceNameConstants.class

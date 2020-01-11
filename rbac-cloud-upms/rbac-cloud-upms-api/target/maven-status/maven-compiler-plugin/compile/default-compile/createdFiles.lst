@@ -1,0 +1,12 @@
+com\xxy\rbac\admin\api\entity\SysLog.class
+com\xxy\rbac\admin\api\feign\RemoteLogService.class
+com\xxy\rbac\admin\api\feign\factory\RemoteLogServiceFallbackFactory.class
+com\xxy\rbac\admin\api\feign\fallback\RemoteLogServiceFallbackImpl.class
+com\xxy\rbac\admin\api\dto\UserInfo.class
+com\xxy\rbac\admin\api\feign\RemoteUserService.class
+com\xxy\rbac\admin\api\feign\fallback\RemoteTokenServiceFallbackImpl.class
+com\xxy\rbac\admin\api\feign\factory\RemoteUserServiceFallbackFactory.class
+com\xxy\rbac\admin\api\feign\factory\RemoteTokenServiceFallbackFactory.class
+com\xxy\rbac\admin\api\feign\RemoteTokenService.class
+com\xxy\rbac\admin\api\feign\fallback\RemoteUserServiceFallbackImpl.class
+com\xxy\rbac\admin\api\entity\SysUser.class

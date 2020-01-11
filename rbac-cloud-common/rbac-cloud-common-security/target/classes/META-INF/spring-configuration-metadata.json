@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "ignore",
+      "type": "com.xxy.common.security.component.PermitAllUrlConfiguration",
+      "sourceType": "com.xxy.common.security.component.PermitAllUrlConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ignore.urls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行url,支持 ant 表达式",
+      "sourceType": "com.xxy.common.security.component.PermitAllUrlConfiguration"
+    }
+  ],
+  "hints": []
+}

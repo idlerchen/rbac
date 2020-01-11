@@ -55,10 +55,6 @@ public class RbacUserDetailsServiceImpl implements UserDetailsService {
 	private final CacheManager cacheManager;
 
 
-	@PostConstruct
-	public void init(){
-		System.out.println("已经完成初始化==========");
-	}
 
 	/**
 	 * 用户密码登录

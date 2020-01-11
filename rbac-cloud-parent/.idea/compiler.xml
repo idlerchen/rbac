@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rbac-cloud-auth" />
+        <module name="rbac-cloud-codegen" />
+        <module name="rbac-cloud-common-core" />
+        <module name="rbac-cloud-common-log" />
+        <module name="rbac-cloud-common-security" />
+        <module name="rbac-cloud-common-swagger" />
+        <module name="rbac-cloud-gateway" />
+        <module name="rbac-cloud-regiter" />
+        <module name="rbac-cloud-upms-api" />
+        <module name="rbac-cloud-upms-biz" />
+        <module name="rbac_cloud_monitor" />
+        <module name="rbac_cloud_regiter" />
+        <module name="rbac_cloud_upms_biz" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rbac-cloud-monitor" target="1.8" />
+      <module name="rbac_cloud_user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rbac-cloud-auth" options="" />
+      <module name="rbac-cloud-gateway" options="" />
+      <module name="rbac_cloud_user" options="" />
+    </option>
+  </component>
+</project>

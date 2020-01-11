@@ -1,0 +1,12 @@
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\fallback\RemoteLogServiceFallbackImpl.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\factory\RemoteLogServiceFallbackFactory.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\factory\RemoteTokenServiceFallbackFactory.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\fallback\RemoteTokenServiceFallbackImpl.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\RemoteUserService.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\RemoteLogService.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\RemoteTokenService.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\factory\RemoteUserServiceFallbackFactory.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\entity\SysLog.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\entity\SysUser.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\fallback\RemoteUserServiceFallbackImpl.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\dto\UserInfo.java

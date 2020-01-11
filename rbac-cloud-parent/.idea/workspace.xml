@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="239dc33b-c7bc-4cee-8849-9d161702958f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java" afterDir="false" />
+    </list>
+    <list id="6667a3ba-bd14-4b10-a7bb-734ae92e9310" name="ingore" comment="">
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteUserServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteUserServiceFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/rbac_cloud_common_core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/rbac_cloud_common_log.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/rbac_cloud_common_security.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/rbac_cloud_common_swagger.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/rbac_cloud_upms_api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/rbac_cloud_upms_biz.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_auth/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-auth/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_auth/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-auth/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_auth/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-auth/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/constants/ServiceNameConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_log/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_log/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_log/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/rbac_cloud_common_security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/rbac-cloud-common-security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/classes/com/xxy/common/security/handler/FormAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/classes/com/xxy/common/security/handler/FormAuthenticationFailureHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_swagger/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_swagger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/thriftCompiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac_cloud_parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_parent/rbac-cloud-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/dto/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_biz/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_biz/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysUser.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_auth/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_user/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_gateway/target/" />
+    <ignored path="$PROJECT_DIR$/../../rbac_cloud_api/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_log/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_swagger/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_core/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_swagger/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_log/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/target/" />
+    <ignored path="$PROJECT_DIR$/../../rbac_cloud_upms/target/" />
+    <ignored path="$PROJECT_DIR$/../../rbac_cloud_upms/rbac_cloud_upms_api/target/" />
+    <ignored path="$PROJECT_DIR$/../../rbac_cloud_upms/rbac_cloud_upms_biz/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_upms/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_api/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_biz/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_monitor/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_codegen/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac_cloud_regiter/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-auth/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-codegen/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-regiter/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-upms/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/" />
+    <ignored path="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1424104519">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.132" value="1" />
+          <entry key="project.open.time.1335" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4801" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="50" />
+          <entry key="ftl" value="1" />
+          <entry key="java" value="930" />
+          <entry key="properties" value="24" />
+          <entry key="txt" value="42" />
+          <entry key="xml" value="902" />
+          <entry key="yml" value="422" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="FTL" value="1" />
+          <entry key="JAVA" value="930" />
+          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="Properties" value="24" />
+          <entry key="XML" value="902" />
+          <entry key="YAML" value="422" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="7" />
+          <entry key="cmd" value="1" />
+          <entry key="css" value="1" />
+          <entry key="ftl" value="3" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="118" />
+          <entry key="js" value="1" />
+          <entry key="properties" value="5" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="31" />
+          <entry key="yml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="7" />
+          <entry key="CSS" value="1" />
+          <entry key="FTL" value="3" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="118" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="31" />
+          <entry key="YAML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1439546106">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="factories" value="26" />
+          <entry key="java" value="245" />
+          <entry key="txt" value="22" />
+          <entry key="xml" value="153" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="245" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="XML" value="153" />
+          <entry key="YAML" value="1" />
+          <entry key="spring.factories" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="10" />
+          <entry key="factories" value="5" />
+          <entry key="java" value="39" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="27" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="39" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="1" />
+          <entry key="spring.factories" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/endpoint/RbacTokenEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-894">
+              <caret line="163" column="34" selection-start-line="163" selection-start-column="34" selection-end-line="163" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/resources/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteLogServiceFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="32" column="99" lean-forward="true" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/UnauthorizedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/ServerErrorException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/handler/AbstractAuthenticationFailureEvenHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/handler/FormAuthenticationFailureHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacClientDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tkmybatis.version</find>
+      <find>spring-boot-configuration-processor</find>
+      <find>mysql:</find>
+      <find>mys</find>
+      <find>spring-boot-starter-data-redis-reactive</find>
+      <find>/token/form</find>
+      <find>&quot;/token/form&quot;</find>
+      <find>config_info</find>
+      <find>Pig</find>
+      <find>dat</find>
+      <find>_</find>
+      <find>nacos</find>
+      <find>cache</find>
+      <find>ca</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../spring-framework-5.1.11.RELEASE" value="PREVIEW" />
+        <entry key="D:/myproject/pro-netty-consumer" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../rbac_cloud_upms/rbac_cloud_upms_biz/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_regiter/src/main/java/com/alibaba/nacos/console/utils/JwtTokenUtils.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_regiter/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_regiter/src/main/java/com/alibaba/nacos/RbacCloudNacosApplication.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_regiter/src/main/java/com/alibaba/nacos/console/security/CustomUserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_regiter/src/main/java/com/alibaba/nacos/console/security/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_codegen/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/RbacSecurityBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/PigUserAuthenticationConverter.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/PigResourceServerConfigurerAdapter.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/RbacResourceServerConfigurerAdapter.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/ResourceAuthExceptionEntryPoint.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/PermitAllUrlConfiguration.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_common/rbac_cloud_common_security/src/main/java/com/xxy/common/security/component/RbacUserAuthenticationConverter.java" />
+        <option value="$PROJECT_DIR$/../rbac_cloud_auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-codegen/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-regiter/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-auth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/constants/ServiceNameConstants.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteUserServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/dto/UserInfo.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteUserServiceFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteUserService.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteLogServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteLogService.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteLogServiceFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteTokenServiceFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteTokenService.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysLog.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteTokenServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/config/RedisTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1535" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-common-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-regiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-regiter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-regiter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-regiter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-regiter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbac-cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac-cloud-upms" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac-cloud-upms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="EhCacheCacheConfiguration&#9;FILE&#9;jar://D:/maven/maven-repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/EhCacheCacheConfiguration.class&#10;RbacUserDetailsServiceImpl&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java&#10;AuthorizationServerConfig&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/config/AuthorizationServerConfig.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578715541800" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xxy.rbac_cloud_auth" />
+      <recent name="com.xxy.rbac_cloud_user.dao.rbac_user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxy.common.core.config" />
+      <recent name="com.xxy.common.security.service" />
+      <recent name="com.xxy.common.security.component" />
+      <recent name="com.alibaba.nacos.console.security" />
+      <recent name="com.xxy.common.core.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-core\src\main\resources" />
+      <recent name="D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign\factory" />
+      <recent name="D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\java\com\xxy\rbac\admin\api\feign" />
+      <recent name="D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-upms\rbac-cloud-upms-api\src\main\resources" />
+      <recent name="D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RbacCloudAuthApplication (1)">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="rbac-cloud-codegen" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="rbac-cloud-codegen" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudAuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rbac-cloud-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxy.rbac_cloud_auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxy.rbac_cloud_auth.RbacCloudAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rbac-cloud-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxy.rbac_cloud_auth.RbacCloudAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rbac-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxy.rbac_cloud_gateway.RbacCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudNacosApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rbac_cloud_regiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.nacos.RbacCloudNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rbac-cloud-regiter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.nacos.RbacCloudNacosApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RbacCloudUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rbac_cloud_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxy.rbac_cloud_user.RbacCloudUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.RbacCloudAuthApplication" />
+      <item itemvalue="Spring Boot.RbacCloudUserApplication" />
+      <item itemvalue="Spring Boot.RbacCloudGatewayApplication" />
+      <item itemvalue="Spring Boot.RbacCloudNacosApplication" />
+      <item itemvalue="Spring Boot.RbacCloudNacosApplication (1)" />
+      <item itemvalue="Spring Boot.RbacCloudAuthApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RbacCloudAuthApplication (1)" />
+        <item itemvalue="Spring Boot.RbacCloudNacosApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="239dc33b-c7bc-4cee-8849-9d161702958f" name="Default Changelist" comment="" />
+      <changelist id="6667a3ba-bd14-4b10-a7bb-734ae92e9310" name="ingore" comment="" />
+      <created>1577519665721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577519665721</updated>
+      <workItem from="1577519671657" duration="3588000" />
+      <workItem from="1577523303258" duration="13119000" />
+      <workItem from="1577715585205" duration="5875000" />
+      <workItem from="1577890664867" duration="2404000" />
+      <workItem from="1577979938226" duration="6953000" />
+      <workItem from="1578075103819" duration="10362000" />
+      <workItem from="1578673530004" duration="765000" />
+      <workItem from="1578674727046" duration="11582000" />
+    </task>
+    <task id="LOCAL-00001" summary="新建监控模块">
+      <created>1578501094324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578501094324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加注册中心模块">
+      <created>1578585756015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578585756015</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加注册中心模块，完善注册中心代码，读取本地配置库">
+      <created>1578588989133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578588989133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完善auth2模块">
+      <created>1578671266386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578671266386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="改变模块">
+      <created>1578676977180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578676977180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="启动权限模块，成功">
+      <created>1578685106970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578685106970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63232000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.26876676" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.25938338" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5694051" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="SOQL Query" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.269437" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.25938338" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4858357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="SOQL Query" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加注册中心模块" />
+    <MESSAGE value="增加注册中心模块，完善注册中心代码，读取本地配置库" />
+    <MESSAGE value="完善auth2模块" />
+    <MESSAGE value="改变模块" />
+    <MESSAGE value="启动权限模块，成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="启动权限模块，成功" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-codegen/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-regiter/src/main/java/com/alibaba/nacos/RbacCloudNacosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#1350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/RbacCloudAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-gateway/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/constants/ServiceNameConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/cn/hutool/system/UserInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/stereotype/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/resources/security/messages_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteLogServiceFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteTokenServiceFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/cache/CacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteTokenServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/EhCacheCacheConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.2.2.RELEASE/spring-boot-starter-data-redis-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/config/RedisTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/RemoteLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteUserServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/fallback/RemoteUserServiceFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/entity/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/dto/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/ForbiddenException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/InvalidException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/MethodNotAllowed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/UnauthorizedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/exception/ServerErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/handler/AbstractAuthenticationFailureEvenHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/handler/FormAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacClientDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/endpoint/RbacTokenEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="163" column="34" selection-start-line="163" selection-start-column="34" selection-end-line="163" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/src/main/java/com/xxy/rbac/admin/api/feign/factory/RemoteLogServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="32" column="99" lean-forward="true" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rbac_cloud_common_security</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
