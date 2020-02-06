@@ -36,7 +36,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
- * Spring security config
+ * Spring org.springframework.security config
  *
  * @author Nacos
  */
@@ -75,7 +75,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) {
-        String ignoreURLs = env.getProperty("nacos.security.ignore.urls", "/**");
+        String ignoreURLs = env.getProperty("nacos.org.springframework.security.ignore.urls", "/**");
         for (String ignoreURL : ignoreURLs.trim().split(SECURITY_IGNORE_URLS_SPILT_CHAR)) {
             web.ignoring().antMatchers(ignoreURL.trim());
         }

@@ -32,7 +32,7 @@ import org.springframework.web.client.RestTemplate;
  * @date 2019/03/08
  */
 @ConfigurationPropertiesScan
-@ComponentScan("com.pig4cloud.pig.common.security")
+@ComponentScan("com.pig4cloud.pig.common.org.springframework.security")
 public class RbacResourceServerAutoConfiguration {
 	@Bean
 	@Primary

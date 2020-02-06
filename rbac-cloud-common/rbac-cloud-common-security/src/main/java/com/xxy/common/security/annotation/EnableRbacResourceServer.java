@@ -37,6 +37,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Import({RbacResourceServerAutoConfiguration.class, RbacSecurityBeanDefinitionRegistrar.class})
-public @interface EnablePigResourceServer {
+public @interface EnableRbacResourceServer {
 
 }

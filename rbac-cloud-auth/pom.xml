@@ -35,7 +35,7 @@
             <artifactId>rbac-cloud-upms-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!--security-->
+        <!--org.springframework.security-->
         <dependency>
             <groupId>com.xxy</groupId>
             <artifactId>rbac-cloud-common-security</artifactId>
@@ -51,7 +51,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
-        <!--spring security 、oauth、jwt依赖-->
+        <!--spring org.springframework.security 、oauth、jwt依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-security</artifactId>

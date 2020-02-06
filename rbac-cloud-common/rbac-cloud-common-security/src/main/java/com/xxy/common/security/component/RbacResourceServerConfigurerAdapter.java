@@ -44,7 +44,7 @@ public class RbacResourceServerConfigurerAdapter extends ResourceServerConfigure
 	@Autowired
 	protected RemoteTokenServices remoteTokenServices;
 	@Autowired
-	private AccessDeniedHandler pigAccessDeniedHandler;
+	private AccessDeniedHandler rbacAccessDeniedHandler;
 	@Autowired
 	private PermitAllUrlConfiguration permitAllUrl;
 	@Autowired
@@ -78,7 +78,7 @@ public class RbacResourceServerConfigurerAdapter extends ResourceServerConfigure
 		remoteTokenServices.setRestTemplate(lbRestTemplate);
 		remoteTokenServices.setAccessTokenConverter(accessTokenConverter);
 		resources.authenticationEntryPoint(resourceAuthExceptionEntryPoint)
-			.accessDeniedHandler(pigAccessDeniedHandler)
+			.accessDeniedHandler(rbacAccessDeniedHandler)
 			.tokenServices(remoteTokenServices);
 	}
 }
