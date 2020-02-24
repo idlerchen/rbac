@@ -21,8 +21,8 @@ import com.xxy.common.security.component.RbacAuth2ExceptionSerializer;
 import org.springframework.http.HttpStatus;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @JsonSerialize(using = RbacAuth2ExceptionSerializer.class)
 public class UnauthorizedException extends RbacAuth2Exception {

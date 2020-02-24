@@ -28,11 +28,11 @@ import org.springframework.web.client.DefaultResponseErrorHandler;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author lengleng
+ * @author xxy
  * @date 2019/03/08
  */
 @ConfigurationPropertiesScan
-@ComponentScan("com.pig4cloud.pig.common.org.springframework.security")
+@ComponentScan("com.xxy.common.security")
 public class RbacResourceServerAutoConfiguration {
 	@Bean
 	@Primary

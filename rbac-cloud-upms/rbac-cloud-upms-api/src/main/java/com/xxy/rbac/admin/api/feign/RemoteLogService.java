@@ -27,8 +27,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @FeignClient(contextId = "remoteLogService", value = ServiceNameConstants.UMPS_SERVICE, fallbackFactory = RemoteLogServiceFallbackFactory.class)
 public interface RemoteLogService {

@@ -17,7 +17,7 @@
 package com.xxy.common.core.exception;
 
 /**
- * @author lengleng
+ * @author xxy
  * @date 2018年06月22日16:22:15
  */
 public class ValidateCodeException extends RuntimeException {

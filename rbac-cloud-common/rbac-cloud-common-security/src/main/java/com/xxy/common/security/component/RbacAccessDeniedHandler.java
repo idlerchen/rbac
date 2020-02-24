@@ -17,8 +17,8 @@
 package com.xxy.common.security.component;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 
 import cn.hutool.http.HttpStatus;
@@ -38,9 +38,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 /**
- * @author lengleng
+ * @author xxy
  * 授权拒绝处理器，覆盖默认的OAuth2AccessDeniedHandler
- * 包装失败信息到PigDeniedException
+ * 包装失败信息到RbacDeniedException
  */
 @Slf4j
 @Component

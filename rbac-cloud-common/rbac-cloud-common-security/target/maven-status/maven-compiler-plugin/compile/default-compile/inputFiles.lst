@@ -1,4 +1,6 @@
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\PermissionService.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\service\RbacClientDetailsService.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\annotation\EnableRbacFeignClients.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\exception\InvalidException.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\handler\FormAuthenticationFailureHandler.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\PermitAllUrlConfiguration.java
@@ -13,13 +15,17 @@ D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-securit
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\utils\SecurityUtils.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\ResourceAuthExceptionEntryPoint.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacUserAuthenticationConverter.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacResourceServerTokenRelayAutoConfiguration.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\exception\ForbiddenException.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacSecurityInnerAspect.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\feign\RbacFeignClientConfiguration.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\annotation\Inner.java
-D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\annotation\EnablePigResourceServer.java
-D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\annotation\EnablePigFeignClients.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacResourceServerAutoConfiguration.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\service\RbacUser.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\exception\MethodNotAllowed.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\feign\RbacFeignClientInterceptor.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\handler\AbstractAuthenticationSuccessEventHandler.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacWebResponseExceptionTranslator.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\annotation\EnableRbacResourceServer.java
+D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\component\RbacAccessDeniedHandler.java
 D:\IDEA_WorkSpace\mygit_project\rbac\rbac-cloud-common\rbac-cloud-common-security\src\main\java\com\xxy\common\security\exception\RbacAuth2Exception.java

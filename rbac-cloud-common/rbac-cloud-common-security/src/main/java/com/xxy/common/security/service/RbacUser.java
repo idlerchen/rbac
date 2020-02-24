@@ -8,8 +8,7 @@ import org.springframework.security.core.userdetails.User;
 import java.util.Collection;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
  * 扩展用户信息
  */
 public class RbacUser extends User {

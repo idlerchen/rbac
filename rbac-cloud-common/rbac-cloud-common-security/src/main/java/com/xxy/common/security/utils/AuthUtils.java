@@ -26,8 +26,8 @@ import org.springframework.http.HttpHeaders;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  * 认证授权相关工具类
  */
 @Slf4j

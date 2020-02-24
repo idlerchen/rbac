@@ -37,8 +37,8 @@ import java.util.Properties;
 
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  * <p>
  * mybatis 数据权限拦截器
  */

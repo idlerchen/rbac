@@ -47,8 +47,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  * 认证服务器配置
  */
 @Configuration

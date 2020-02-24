@@ -20,8 +20,8 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.xxy.common.security.component.RbacAuth2ExceptionSerializer;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @JsonSerialize(using = RbacAuth2ExceptionSerializer.class)
 public class InvalidException extends RbacAuth2Exception {

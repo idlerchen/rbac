@@ -8,8 +8,7 @@ import com.xxy.common.security.exception.RbacAuth2Exception;
 import lombok.SneakyThrows;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
  * <p>
  * OAuth2 异常格式化
  */

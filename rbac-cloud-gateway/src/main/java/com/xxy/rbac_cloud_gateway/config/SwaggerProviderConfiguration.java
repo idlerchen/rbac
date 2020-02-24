@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author xxy
  * @date 2019-11-28
  */
 @Component
@@ -50,7 +50,7 @@ public class SwaggerProviderConfiguration implements SwaggerResourcesProvider {
 		gatewayProperties.getRoutes().stream().filter(routeDefinition -> 	routes.contains(routeDefinition.getId()))
 			.forEach(routeDefinition -> routeDefinition.getPredicates().stream()
 				.filter(predicateDefinition -> "Path".equalsIgnoreCase(predicateDefinition.getName()))
-				.filter(predicateDefinition -> !"pig-auth".equalsIgnoreCase(routeDefinition.getId()))
+				.filter(predicateDefinition -> !"rbac-cloud-auth".equalsIgnoreCase(routeDefinition.getId()))
 				.forEach(predicateDefinition -> resources.add(swaggerResource(routeDefinition.getId(),
 					predicateDefinition.getArgs().get(NameUtils.GENERATED_NAME_PREFIX + "0")
 						.replace("/**", API_URI)))));

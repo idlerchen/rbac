@@ -22,8 +22,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @Slf4j
 @Component

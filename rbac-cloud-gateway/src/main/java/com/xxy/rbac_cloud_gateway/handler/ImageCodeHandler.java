@@ -38,8 +38,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  * 验证码生成逻辑处理类
  */
 @Slf4j

@@ -27,7 +27,7 @@ import java.io.Serializable;
  * 响应信息主体
  *
  * @param <T>
- * @author lengleng
+ * @author xxy
  */
 @ToString
 @NoArgsConstructor

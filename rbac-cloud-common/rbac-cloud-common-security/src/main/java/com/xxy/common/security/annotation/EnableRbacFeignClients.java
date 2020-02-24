@@ -21,8 +21,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import java.lang.annotation.*;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

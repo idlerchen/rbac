@@ -272,7 +272,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
     }
   }
   var cKeywords = "auto if break case register continue return default do sizeof " +
-    "static else struct switch extern typedef union for goto while enum const volatile";
+    "static else struct switch extern typedef union for goto while enums const volatile";
   var cTypes = "int long char short double float unsigned signed void size_t ptrdiff_t";
 
   function cppHook(stream, state) {
@@ -397,7 +397,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
                     "static_assert override"),
     types: words(cTypes + " bool wchar_t"),
     blockKeywords: words("catch class do else finally for if struct switch try while"),
-    defKeywords: words("class namespace struct enum union"),
+    defKeywords: words("class namespace struct enums union"),
     typeFirstDefinitions: true,
     atoms: words("true false null"),
     dontIndentStatements: /^template$/,
@@ -434,14 +434,14 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
   def("text/x-java", {
     name: "clike",
     keywords: words("abstract assert break case catch class const continue default " +
-                    "do else enum extends final finally float for goto if implements import " +
+                    "do else enums extends final finally float for goto if implements import " +
                     "instanceof interface native new package private protected public " +
                     "return static strictfp super switch synchronized this throw throws transient " +
                     "try volatile while @interface"),
     types: words("byte short int long float double boolean char void Boolean Byte Character Double Float " +
                  "Integer Long Number Object Short String StringBuffer StringBuilder Void"),
     blockKeywords: words("catch class do else finally for if switch try while"),
-    defKeywords: words("class interface package enum @interface"),
+    defKeywords: words("class interface package enums @interface"),
     typeFirstDefinitions: true,
     atoms: words("true false null"),
     number: /^(?:0x[a-f\d_]+|0b[01_]+|(?:[\d_]+\.?\d*|\.\d+)(?:e[-+]?[\d_]+)?)(u|ll?|l|f)?/i,
@@ -460,7 +460,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
   def("text/x-csharp", {
     name: "clike",
     keywords: words("abstract as async await base break case catch checked class const continue" +
-                    " default delegate do else enum event explicit extern finally fixed for" +
+                    " default delegate do else enums event explicit extern finally fixed for" +
                     " foreach goto if implicit in interface internal is lock namespace new" +
                     " operator out override params private protected public readonly ref return sealed" +
                     " sizeof stackalloc static struct switch this throw try typeof unchecked" +
@@ -525,8 +525,8 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
       "StringBuffer System Thread ThreadGroup ThreadLocal Throwable Triple Void"
     ),
     multiLineStrings: true,
-    blockKeywords: words("catch class enum do else finally for forSome if match switch try while"),
-    defKeywords: words("class enum def object package trait type val var"),
+    blockKeywords: words("catch class enums do else finally for forSome if match switch try while"),
+    defKeywords: words("class enums def object package trait type val var"),
     atoms: words("true false null"),
     indentStatements: false,
     indentSwitch: false,
@@ -584,7 +584,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
       "break continue object if else while do try when !in !is as? " +
 
       /*soft keywords*/
-      "file import where by get set abstract enum open inner override private public internal " +
+      "file import where by get set abstract enums open inner override private public internal " +
       "protected catch finally out final vararg reified dynamic companion constructor init " +
       "sealed field property receiver param sparam lateinit data inline noinline tailrec " +
       "external annotation crossinline const operator infix suspend"
@@ -600,7 +600,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
     indentStatements: false,
     multiLineStrings: true,
     number: /^(?:0x[a-f\d_]+|0b[01_]+|(?:[\d_]+\.?\d*|\.\d+)(?:e[-+]?[\d_]+)?)(u|ll?|l|f)?/i,
-    blockKeywords: words("catch class do else finally for if where try while enum"),
+    blockKeywords: words("catch class do else finally for if where try while enums"),
     defKeywords: words("class val var object package interface fun"),
     atoms: words("true false null this"),
     hooks: {
@@ -704,7 +704,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
 
   def("text/x-squirrel", {
     name: "clike",
-    keywords: words("base break clone continue const default delete enum extends function in class" +
+    keywords: words("base break clone continue const default delete enums extends function in class" +
                     " foreach local resume return this throw typeof yield constructor instanceof static"),
     types: words(cTypes),
     blockKeywords: words("case catch class else for foreach if switch try while"),

@@ -22,8 +22,7 @@ import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Mono;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
  * 路由限流配置
  */
 @Configuration

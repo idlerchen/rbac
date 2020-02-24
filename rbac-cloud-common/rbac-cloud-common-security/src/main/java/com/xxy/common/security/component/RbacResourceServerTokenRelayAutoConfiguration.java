@@ -33,8 +33,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 import java.lang.annotation.*;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  * 注入AccessTokenContextRelay 解决feign 传递token 为空问题
  */
 @Configuration

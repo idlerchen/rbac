@@ -22,8 +22,8 @@ import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
+
  */
 @Component
 public class RemoteLogServiceFallbackFactory implements FallbackFactory<RemoteLogService> {

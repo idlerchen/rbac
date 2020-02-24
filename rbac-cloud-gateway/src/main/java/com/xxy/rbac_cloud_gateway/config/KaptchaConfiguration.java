@@ -24,8 +24,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Properties;
 
 /**
- * @author lengleng
- * @date 2019/2/1
+ * @author xxy
  */
 @Configuration
 public class KaptchaConfiguration {

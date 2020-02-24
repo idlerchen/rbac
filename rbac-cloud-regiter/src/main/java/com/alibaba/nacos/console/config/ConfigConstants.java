@@ -18,7 +18,7 @@
 package com.alibaba.nacos.console.config;
 
 /**
- * @author lengleng
+ * @author xxy
  * @date 2019-10-31
  * <p>
  * 覆盖nacos 默认配置
