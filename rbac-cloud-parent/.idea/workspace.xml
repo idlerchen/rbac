@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239dc33b-c7bc-4cee-8849-9d161702958f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/RbacCloudAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/RbacCloudAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-codegen/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-codegen/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-codegen/target/rbac-cloud-codegen.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-codegen/target/rbac-cloud-codegen.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/constants/ServiceNameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/src/main/java/com/xxy/common/core/constants/ServiceNameConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/classes/com/xxy/common/core/constants/ServiceNameConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/classes/com/xxy/common/core/constants/ServiceNameConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/rbac-cloud-common-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-core/target/rbac-cloud-common-core.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/rbac-cloud-common-log.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-log/target/rbac-cloud-common-log.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/annotation/EnableRbacFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/annotation/EnableRbacFeignClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/rbac-cloud-common-security.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-security/target/rbac-cloud-common-security.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/rbac-cloud-common-swagger.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-common/rbac-cloud-common-swagger/target/rbac-cloud-common-swagger.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-gateway/src/main/java/com/xxy/rbac_cloud_gateway/filter/PasswordDecoderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-gateway/src/main/java/com/xxy/rbac_cloud_gateway/filter/PasswordDecoderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-monitor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-monitor/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-monitor/target/rbac-cloud-monitor.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-monitor/target/rbac-cloud-monitor.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-regiter/target/classes/static/console-fe/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-regiter/target/classes/static/console-fe/src/layouts/MainLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-regiter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-regiter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-regiter/target/rbac_cloud_register.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-regiter/target/rbac_cloud_register.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-regiter/target/rbac_cloud_register.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-regiter/target/rbac_cloud_register.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteLogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteTokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/classes/com/xxy/rbac/admin/api/feign/RemoteUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/rbac-cloud-upms-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-api/target/rbac-cloud-upms-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/src/main/java/com/xxy/rbac_cloud_upms_biz/config/MybatisPlusConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/src/main/java/com/xxy/rbac_cloud_upms_biz/config/MybatisPlusConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/rbac-cloud-upms-biz.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/target/rbac-cloud-upms-biz.jar" afterDir="false" />
     </list>
     <list id="6667a3ba-bd14-4b10-a7bb-734ae92e9310" name="ingore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -218,8 +189,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/src/main/java/com/xxy/rbac_cloud_upms_biz/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="23">
+              <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#921#930#0" expanded="true" />
@@ -287,15 +258,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rbac-cloud-gateway/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -807,7 +769,7 @@
     <property name="SearchEverywhereHistoryKey" value="AuthenticationProvider&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-regiter/src/main/java/com/alibaba/nacos/console/security/CustomAuthenticationProvider.java&#10;org.springframework.security.authentication.UsernamePasswordAuthenticationToken&#9;PSI&#9;JAVA://org.springframework.security.authentication.UsernamePasswordAuthenticationToken&#10;DynamicServerListLoadBalancer&#9;PSI&#9;JAVA://com.netflix.loadbalancer.DynamicServerListLoadBalancer&#10;RbacResourceServerConfigurerAdapter&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/component/RbacResourceServerConfigurerAdapter.java&#10;AccessDeniedHandler&#9;PSI&#9;JAVA://org.springframework.security.web.access.AccessDeniedHandler&#10;spring.fa&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-upms/rbac-cloud-upms-api/src/main/resources/META-INF/spring.factories&#10;EhCacheCacheConfiguration&#9;FILE&#9;jar://D:/maven/maven-repository/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/EhCacheCacheConfiguration.class&#10;RbacUserDetailsServiceImpl&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-common/rbac-cloud-common-security/src/main/java/com/xxy/common/security/service/RbacUserDetailsServiceImpl.java&#10;AuthorizationServerConfig&#9;FILE&#9;file://D:/IDEA_WorkSpace/mygit_project/rbac/rbac-cloud-auth/src/main/java/com/xxy/rbac_cloud_auth/config/AuthorizationServerConfig.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583332983943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583334909750" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1066,7 +1028,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170841000" />
+    <option name="totallyTimeSpent" value="171480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1595,8 +1557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../rbac-cloud-upms/rbac-cloud-upms-biz/src/main/java/com/xxy/rbac_cloud_upms_biz/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="23">
+          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#921#930#0" expanded="true" />
