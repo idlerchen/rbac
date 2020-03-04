@@ -49,7 +49,7 @@ import java.util.Map;
 public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 	private static final String PASSWORD = "password";
 	private static final String KEY_ALGORITHM = "AES";
-	@Value("${org.springframework.security.encode.key:1234567812345678}")
+	@Value("${org.springframework.security.encode.key:thanks,rbaccloud}")
 	private String encodeKey;
 
 	private static String decryptAES(String data, String pass) {

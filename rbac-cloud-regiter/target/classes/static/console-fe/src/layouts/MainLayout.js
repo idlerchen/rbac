@@ -218,7 +218,7 @@ class MainLayout extends React.Component {
     if (this.preActNav) {
       this.preActNav.removeClass('active');
     }
-    const nowNav = $(`#com.xxy:rbac-cloud-regiter:jar:1.0-SNAPSHOT`);
+    const nowNav = $(`#${id}`);
     nowNav.addClass('active');
     this.preActNav = nowNav;
   }

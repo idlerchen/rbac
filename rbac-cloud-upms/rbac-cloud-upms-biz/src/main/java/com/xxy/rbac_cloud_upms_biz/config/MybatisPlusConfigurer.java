@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@MapperScan("com.rbac.cloud.rbac.admin.mapper")
+@MapperScan("com.xxy.rbac_cloud_upms_biz.mapper")
 public class MybatisPlusConfigurer {
 	/**
 	 * 分页插件
