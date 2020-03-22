@@ -1,12 +1,18 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
-import d2admin from './modules/d2admin'
+import user from './modules/user'
+import common from './modules/common'
+import tags from './modules/tags'
+import getters from './getters'
 
 Vue.use(Vuex)
-
-export default new Vuex.Store({
+const store = new Vuex.Store({
   modules: {
-    d2admin
-  }
+    user,
+    common,
+    tags
+  },
+  getters
 })
+
+export default store

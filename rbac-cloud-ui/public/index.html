@@ -1,55 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>icon.ico">
-    <title><%= VUE_APP_TITLE %></title>
-    <style>
-      html, body, #app { height: 100%; margin: 0px; padding: 0px; }
-      .d2-home { background-color: #303133; height: 100%; display: flex; flex-direction: column; }
-      .d2-home__main { user-select: none; width: 100%; flex-grow: 1; display: flex; justify-content: center; align-items: center; flex-direction: column; }
-      .d2-home__footer { width: 100%; flex-grow: 0; text-align: center; padding: 1em 0; }
-      .d2-home__footer > a { font-size: 12px; color: #ABABAB; text-decoration: none; }
-      .d2-home__loading { height: 32px; width: 32px; margin-bottom: 20px; }
-      .d2-home__title { color: #FFF; font-size: 14px; margin-bottom: 10px; }
-      .d2-home__sub-title { color: #ABABAB; font-size: 12px; }
-    </style>
-    <script>
-      var _hmt = _hmt || [];
-      var hmid = "2825bdd3a1bb999241ba693d9947e755";
-      (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?" + hmid; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();
-    </script>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link rel="stylesheet" href="<%= BASE_URL %>cdn/animate/3.5.2/animate.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>cdn/iconfont/1.0.0/index.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>cdn/avue/avue.css">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Pig微服务快速开发框架</title>
+</head>
+
+<body>
     <noscript>
-      <strong>
-        很抱歉，如果没有 JavaScript 支持，D2Admin 将不能正常工作。请启用浏览器的 JavaScript 然后继续。
-      </strong>
+      <strong>很抱歉，如果没有 JavaScript 支持，网站将不能正常工作。请启用浏览器的 JavaScript 然后继续。</strong>
     </noscript>
     <div id="app">
-      <div class="d2-home">
-        <div class="d2-home__main">
-          <img
-            class="d2-home__loading"
-            src="./image/loading/loading-spin.svg"
-            alt="loading">
-          <div class="d2-home__title">
-            正在加载资源
-          </div>
-          <div class="d2-home__sub-title">
-            初次加载资源可能需要较多时间 请耐心等待
-          </div>
+        <div class="avue-home">
+            <div class="avue-home__main">
+                <img class="avue-home__loading" src="./svg/loading-spin.svg" alt="loading">
+                <div class="avue-home__title">
+                    正在加载资源
+                </div>
+                <div class="avue-home__sub-title">
+                    初次加载资源可能需要较多时间 请耐心等待
+                </div>
+            </div>
+            <div class="avue-home__footer">
+                <a href="https://pig4cloud.com/zh-cn" target="_blank">
+                    Copyright © 2018 pig4cloud.com</a>
+            </div>
         </div>
-        <div class="d2-home__footer">
-          <a
-            href="https://github.com/d2-projects/d2-admin"
-            target="_blank">
-            https://github.com/d2-projects/d2-admin
-          </a>
-        </div>
-      </div>
     </div>
-  </body>
+    <!-- built files will be auto injected -->
+    <script src="<%= BASE_URL %>cdn/axios/1.0.0/axios.min.js" charset="utf-8"></script>
+</body>
+
 </html>

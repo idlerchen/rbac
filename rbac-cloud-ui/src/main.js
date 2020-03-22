@@ -1,48 +1,63 @@
-// Vue
+import 'babel-polyfill'
+import 'classlist-polyfill'
 import Vue from 'vue'
+import axios from './router/axios'
+import VueAxios from 'vue-axios'
 import App from './App'
-// store
-import store from '@/store/index'
-// 模拟数据
-import '@/mock'
-// 多国语
-import i18n from './i18n'
-// 核心插件
-import d2Admin from '@/plugin/d2admin'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import Avue from '@smallwei/avue'
+import '@smallwei/avue/lib/index.css'
+import './permission' // 权限
+import './error' // 日志
+import router from './router/router'
+import store from './store'
+import { loadStyle } from './util/util'
+import * as urls from '@/config/env'
+import {
+  iconfontUrl,
+  iconfontVersion
+} from '@/config/env'
+import * as filters from './filters' // 全局filter
+import './styles/common.scss'
+import basicContainer from './components/basic-container/main'
 
-// 菜单和路由设置
-import router from './router'
-import { menuHeader, menuAside } from '@/config/menu'
-import { frameInRoutes } from '@/config/routes'
+Vue.use(VueAxios, axios)
 
-console.log('frameInRoutes', frameInRoutes)
+Vue.use(ElementUI, {
+  size: 'medium',
+  menuType: 'text'
+})
 
-// 核心插件
-Vue.use(d2Admin)
+Vue.use(Avue, {
+  size: 'medium',
+  menuType: 'text'
+})
+
+Vue.use(router)
+
+// 注册全局容器
+Vue.component('basicContainer', basicContainer)
+
+// 加载相关url地址
+Object.keys(urls).forEach(key => {
+  Vue.prototype[key] = urls[key]
+})
+
+//加载过滤器
+Object.keys(filters).forEach(key => {
+  Vue.filter(key, filters[key])
+})
+
+// 动态加载阿里云字体库
+iconfontVersion.forEach(ele => {
+  loadStyle(iconfontUrl.replace('$key', ele))
+})
+
+Vue.config.productionTip = false
 
 new Vue({
   router,
   store,
-  i18n,
-  render: h => h(App),
-  created () {
-    // 处理路由 得到每一级的路由设置
-    this.$store.commit('d2admin/page/init', frameInRoutes)
-    // 设置顶栏菜单
-    this.$store.commit('d2admin/menu/headerSet', menuHeader)
-    // 设置侧边栏菜单
-    this.$store.commit('d2admin/menu/asideSet', menuAside)
-    // 初始化菜单搜索功能
-    this.$store.commit('d2admin/search/init', menuHeader)
-  },
-  mounted () {
-    // 展示系统信息
-    this.$store.commit('d2admin/releases/versionShow')
-    // 用户登录后从数据库加载一系列的设置
-    this.$store.dispatch('d2admin/account/load')
-    // 获取并记录用户 UA
-    this.$store.commit('d2admin/ua/get')
-    // 初始化全屏监听
-    this.$store.dispatch('d2admin/fullscreen/listen')
-  }
+  render: h => h(App)
 }).$mount('#app')

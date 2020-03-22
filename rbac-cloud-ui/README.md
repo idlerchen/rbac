@@ -1,192 +1,77 @@
-![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/banner.png)
-
 <p align="center">
-  <img src="https://img.shields.io/github/release/d2-projects/d2-admin.svg"/>
-  <img src="https://visitor-count-badge.herokuapp.com/today.svg?repo_id=d2-projects.d2-admin"/>
-  <img src="https://img.shields.io/github/last-commit/d2-projects/d2-admin.svg"/>
-  <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"/>
+  <img src="https://img.shields.io/badge/Avue-2.2-green.svg" alt="Build Status">
+  <img src="https://img.shields.io/badge/Spring%20Cloud-Hoxton.RELEASE-blue.svg" alt="Coverage Status">
+  <img src="https://img.shields.io/badge/Spring%20Boot-2.2.1.RELEASE-blue.svg" alt="Downloads">
 </p>
+ 
+**Pig Microservice Architecture**   
+   
+- 基于 Spring Cloud Hoxton.RELEASE 、Spring Security OAuth2 的RBAC权限管理系统  
+- 基于数据驱动视图的理念封装 element-ui，即使没有 vue 的使用经验也能快速上手  
+- 提供对常见容器化支持 Docker、Kubernetes、Rancher2 支持  
+- 提供 lambda 、stream api 、webflux 的生产实践   
 
-<p align="center">
-	<img src="https://img.shields.io/github/issues/d2-projects/d2-admin.svg"/>
-	<img src="https://img.shields.io/github/issues-closed/d2-projects/d2-admin.svg"/>
-	<img src="https://img.shields.io/github/issues-pr/d2-projects/d2-admin.svg"/>
-	<img src="https://img.shields.io/github/issues-pr-closed/d2-projects/d2-admin.svg"/>
-	<img src="https://img.shields.io/github/forks/d2-projects/d2-admin.svg"/>
-	<img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"/>
-</p>
 
-<p align="center">
-	<a href="https://www.travis-ci.org/d2-projects/d2-admin">
-		<img src="https://www.travis-ci.org/d2-projects/d2-admin.svg?branch=master"/>
-	</a>
-	<a href="https://app.netlify.com/sites/d2-admin/deploys">
-		<img src="https://api.netlify.com/api/v1/badges/a5dd4bbd-da3f-4145-98a9-8012577bdcf5/deploy-status"/>
-	</a>
-</p>
+<a href="http://pig4cloud.com/doc/pig" target="_blank">部署文档</a> | <a target="_blank" href="http://avue.top"> 前端解决方案</a> | <a target="_blank" href="https://gitee.com/log4j/pig/releases/v1.3.2"> 1.0  版本</a> | <a target="_blank" href="http://pigx.pig4cloud.com"> PigX在线体验</a>
+    
+![](https://images.gitee.com/uploads/images/2019/0330/065147_85756aea_410595.png)
 
-[D2Admin](https://github.com/d2-projects/d2-admin) 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。
+#### 快速构架微服务应用  
 
-**中文介绍** | [English](https://github.com/d2-projects/d2-admin)
+<img src="https://images.gitee.com/uploads/images/2019/0823/120112_98bb9619_410595.gif"/>  
+   
+#### 核心依赖 
 
-## 文档
 
-[文档](https://fairyever.com/d2-admin/doc/)
+依赖 | 版本
+---|---
+Spring Boot |  2.2.1.RELEASE  
+Spring Cloud | Hoxton.RELEASE
+Spring Security OAuth2 | 2.3.6
+Mybatis Plus | 3.2.0
+hutool | 5.0.6
+Avue | 2.2.3
+   
 
-## 预览
 
-* [预览 | 中国](https://fairyever.com/d2-admin/preview/) 在七牛 CDN 部署
-* [预览 | 其它国家](https://d2-admin.netlify.com) 在 Netlify CDN 部署
+#### 模块说明
+```lua
+pig-ui  -- https://gitee.com/log4j/pig-ui
 
-## 成为赞助者
-
-[在 "爱发电" 上赞助我](https://afdian.net/@fairyever)
-
-## 码云仓库
-
-[码云](https://gitee.com/fairyever/d2-admin)
-
-> 如果您在 github 仓库下载很慢，可以尝试使用我们的码云仓库克隆代码
-
-## 功能
-
-* 使用 vue-cli3 构建
-* 首屏加载等待动画
-* 五款主题
-* 内置 UEditor 富文本编辑器
-* 详细的文档
-* 登录和注销
-* 分离的路由和菜单设置
-* 可折叠侧边栏
-* 多国语
-* 富文本编辑器
-* Markdown 编辑器
-* 全屏
-* Fontawesome 图标库
-* 图标选择器
-* 自动注册 SVG 图标
-* 模拟数据
-* 剪贴板封装
-* 图表库
-* 时间日期计算工具
-* 导入 Excel （ xlsx + csv ）
-* 数据导出 Excel （ xlsx + csv ）
-* 数据导出文本
-* 数字动画
-* 可拖拽调整大小的区块布局
-* 可拖拽调整大小和位置的网格布局
-* 开箱即用的页面布局组件
-* 加载并解析 markdown 文件
-* GitHub 样式的 markdown 显示组件
-* markdown 内代码高亮
-* 为 markdown 扩展了百度云链接解析和优化显示
-* 右键菜单组件
-* 自定义滚动条和滚动控制
-* 公用样式抽离，方便的主题定制
-* 支持临时菜单配置
-* 系统功能展示模块 `1.1.4 +`
-* 多标签页模式 `1.1.4 +`
-* 美化滚动条 `1.1.4 +`
-* json view `1.1.4 +`
-* cookie 封装 `1.1.5 +`
-* 多标签页全局控制 API `1.1.5 +`
-* 菜单全局控制 API `1.1.5 +`
-* 多标签页关闭控制支持右键菜单 `1.1.10 +`
-* 模块化全局状态管理 `1.2.0 +`
-* 多种数据持久化方式：区分用户，区分路由，页面数据快照功能 `1.2.0 +`
-* 支持跳出外部链接的菜单系统 `1.2.0 +`
-* 支持菜单 svg 图标 `1.3.0 +`
-* 日志记录和错误捕捉 `1.3.0 +`
-* 全局菜单搜索 `1.3.0 +`
-* 自定义登录重定向 `1.3.0 +`
-* 切换全局基础组件尺寸 `1.4.0 +`
-* 页面载入进度条 `1.4.1 +`
-* 自适应的顶部菜单栏 `1.4.7 +`
-* 数据导出 xslx 时支持合并单元格 `1.5.4 +`
-
-## 其它版本
-
-| 名称 | Github / 主页  | 预览 | 介绍 |
-| --- | --- | --- | --- |
-| 简化版模板 | [Github](https://github.com/d2-projects/d2-admin-start-kit) | [预览](https://fairyever.com/d2-admin-start-kit/preview/) | 无 |
-| 人人开源适配 | 应人人开源的要求，暂不公开 | [预览](https://fairyever.com/d2-admin-renren-security-enterprise/preview/) | [人人开源](https://www.renren.io) |
-
-## 生态
-
-| 名称 | Github / 主页 | 预览 | 介绍 |
-| --- | --- | --- | --- |
-| D2 CRUD | [Github](https://github.com/d2-projects/d2-crud) | [预览](https://fairyever.com/d2-admin/preview/#/demo/d2-crud/index) | 表格常用操作封装 |
-| D2 Ribbons | [Github](https://github.com/d2-projects/d2-ribbons) | [预览](https://github.com/d2-projects/d2-ribbons) | 开源项目徽标库 |
-
-## 衍生开源项目
-
-> 这些项目由开源社区贡献，不保证使用 D2Admin 最新版本，相关使用问题请联系其开源作者。
-
-| 名称 | Github / 主页 | 预览 | 介绍 |
-| --- | --- | --- | --- |
-| d2-admin-pm | [Github](https://github.com/wjkang/d2-admin-pm) | [预览](http://jaycewu.coding.me/d2-admin-pm) | 基于 D2Admin 的 RBAC 权限管理解决方案 |
-| LanBlog | [Github](https://github.com/sinksmell/LanBlog) | [预览](http://47.101.222.133/) | Vue + Beego restful api 开发的懒人博客 |
-| d2-admin-start-kit-plus | [Github](https://github.com/hank-cp/d2-admin-start-kit-plus) | [预览](https://github.com/hank-cp/d2-admin-start-kit-plus) | D2Admin 简化版模块化版本 |
-| d2-crud-plus | [Github](https://github.com/greper/d2-crud-plus) | [预览](http://qiniu.veryreader.com/D2CrudPlusExample/index.html#/index) | 简化d2-crud配置，快速开发crud功能 |
-
-## 开源后端实现
-
-> 后端由开源社区贡献，不保证使用 D2Admin 最新版本，相关使用问题请联系其开源作者。
-
-| 名称 | 技术 | Github / 主页 | 预览 | 介绍 |
-| --- | --- | --- | --- | --- |
-| CareyShop | ThinkPHP5 | [Github](https://github.com/dnyz520/careyshop-admin) | [预览](https://demo.careyshop.cn/admin/#/index) | 适用于 CareyShop 的高性能商城框架系统 |
-| jiiiiiin-security | Spring Boot + Spring Security | [Github](https://github.com/Jiiiiiin/jiiiiiin-security) | [预览](https://github.com/Jiiiiiin/jiiiiiin-security) | 前后端分离的内容管理基础项目，注重用户权限管理功能 |
-| Taroco | Spring Cloud | [Github](https://github.com/liuht777/Taroco) | [预览](http://111.231.192.110/) | 整套微服务企业级解决方案 |
-| Aooms | Spring Cloud | [码云](https://gitee.com/cyb-javaer/Aooms) | [预览](https://www.yuboon.com/Aooms) | 极速微服务开发，不止像JFinal一样简单 |
-| GOA | Beego | [Github](https://github.com/Qsnh/goa) | [预览](http://goaio.vip/) | 基于 Beego + Vue 开发的在线问答系统 |
-
-## 徽章
-
-如果您的开源项目基于 D2Admin 开发，请在您的 README 添加下面的徽章：
-
-<a href="https://github.com/d2-projects/d2-admin" target="_blank">
-	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200">
-</a>
-
-复制下面代码加入到 README 中即可：
-
-``` html
-<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200"></a>
+pig
+├── pig-auth -- 授权服务提供[3000]
+└── pig-common -- 系统公共模块 
+     ├── pig-common-core -- 公共工具类核心包
+     ├── pig-common-log -- 日志服务
+     └── pig-common-security -- 安全工具类
+├── pig-config -- 配置中心[8888]
+├── pig-eureka -- 服务注册与发现[8761]
+├── pig-gateway -- Spring Cloud Gateway网关[9999]
+└── pig-upms -- 通用用户权限管理模块
+     └── pig-upms-api -- 通用用户权限管理系统公共api模块
+     └── pig-upms-biz -- 通用用户权限管理系统业务处理模块[4000]
+└── pig-visual  -- 图形化模块 
+     ├── pig-monitor -- Spring Boot Admin监控 [5001]
+     ├── pig-zipkin -- 链路调用监控 [5002]
+     └── pig-codegen -- 图形化代码生成[5003]
+	 
 ```
+#### 提交反馈
 
-同时您可以将您的项目汇报给我们，优秀项目我们会放置在 D2Admin 相关位置并帮助您宣传。
+1. 欢迎提交 issue，请写清楚遇到问题的原因，开发环境，复显步骤。
 
-## 加入我们
+2. 不接受`功能请求`的 issue，功能请求可能会被直接关闭。  
 
-D2Admin 是完全开源免费的项目，旨在帮助开发者更方便地进行管理系统开发，同时也提供 QQ 交流群和微信群，前后端的朋友可以相互答疑，项目组成员全部在内，所有 D2 相关项目使用问题欢迎在群内提问。
+3. <a href="mailto:pig4cloud@qq.com">pig4cloud@qq.com</a>    
 
-* QQ 1 群 `806395827` ( 2000 人已满 )
-* QQ 2 群 `592981556`
+4. <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1022756131&site=qq&menu=yes"> 个人QQ: 1022756131</a>
 
-![join](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/join@2x.png)
+#### 开源协议
 
-## 贡献
 
-* [@FairyEver](https://github.com/FairyEver)
-* [@sunhaoxiang](https://github.com/sunhaoxiang)
-* [@Aysnine](https://github.com/Aysnine)
-* [@han-feng](https://github.com/han-feng)
-* [@rongxingsun](https://github.com/rongxingsun)
-* [@dnyz520](https://github.com/dnyz520)
+![](https://images.gitee.com/uploads/images/2019/0330/065147_e07bc645_410595.png)
 
-## 访问统计
 
-![](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=d2-projects.d2-admin)
+#### 关注我们
 
-> 自 2019-08-27 起
-
-## Star 历史
-
-[![Stargazers over time](https://starchart.cc/d2-projects/d2-admin.svg)](https://starchart.cc/d2-projects/d2-admin)
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fd2-projects%2Fd2-admin.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fd2-projects%2Fd2-admin?ref=badge_large)
-
-![](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/give-a-star@2x.png)
+![](https://images.gitee.com/uploads/images/2019/0808/102636_659bf088_410595.png)
