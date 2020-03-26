@@ -55,7 +55,7 @@ public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 	private static String decryptAES(String data, String pass) {
 		AES aes = new AES(Mode.CBC, Padding.NoPadding,
 			new SecretKeySpec(pass.getBytes(), KEY_ALGORITHM),
-			new IvParameterSpec(pass.getBytes()));
+			 new IvParameterSpec(pass.getBytes()));
 		byte[] result = aes.decrypt(Base64.decode(data.getBytes(StandardCharsets.UTF_8)));
 		return new String(result, StandardCharsets.UTF_8);
 	}
