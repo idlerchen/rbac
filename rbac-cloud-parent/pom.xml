@@ -33,6 +33,8 @@
         <jasypt.version>2.1.0</jasypt.version>
         <swagger.fox.version>2.9.2</swagger.fox.version>
         <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
+        <lombok.version>1.16.8</lombok.version>
+        <netflix.version>2.0.1.RELEASE</netflix.version>
     </properties>
 
     <dependencies>
@@ -41,6 +43,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+            <version>${spring-boot.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.ulisesbocchio</groupId>
@@ -51,6 +54,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
         <!--监控客户端-->
         <dependency>
@@ -62,18 +66,21 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <version>${netflix.version}</version>
         </dependency>
         <!--Lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
+            <version>${lombok.version}</version>
         </dependency>
         <!--测试依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+            <version>${spring-boot.version}</version>
         </dependency>
     </dependencies>
 
