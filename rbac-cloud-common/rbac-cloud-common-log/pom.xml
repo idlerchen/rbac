@@ -20,7 +20,7 @@
         <!--UPMS接口模块-->
         <dependency>
             <groupId>com.xxy</groupId>
-            <artifactId>rbac_cloud_upms_api</artifactId>
+            <artifactId>rbac-cloud-upms-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--安全依赖获取上下文信息-->
