@@ -13,7 +13,7 @@
     <artifactId>rbac-cloud-regiter</artifactId>
 
     <packaging>jar</packaging>
-    <name>rbac_cloud_register</name>
+    <name>rbac-cloud-register</name>
     <description>nacos 注册配置中心</description>
     <dependencies>
         <dependency>
