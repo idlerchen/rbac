@@ -37,6 +37,7 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import java.net.URI;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -49,6 +50,7 @@ import java.util.Map;
 public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 	private static final String PASSWORD = "password";
 	private static final String KEY_ALGORITHM = "AES";
+	private static final String NO_CHECK = "no_check";
 	@Value("${security.encode.key:thanks,rbaccloud}")
 	private String encodeKey;
 
@@ -75,7 +77,16 @@ public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 			Map<String, String> paramMap = HttpUtil.decodeParamMap(queryParam, CharsetUtil.UTF_8);
 
 			String password = paramMap.get(PASSWORD);
-			if (StrUtil.isNotBlank(password)) {
+            List<String> strs = StrUtil.split(password, ':');
+            boolean nocheck = false;
+			if(strs != null || strs.size() > 1){
+			    if(NO_CHECK.equals(strs.get(1))){
+			        nocheck = true;
+                    paramMap.put(PASSWORD, strs.get(0).trim());
+                }
+            }
+            //如果密码不为空且不绕过密码解密
+			if (StrUtil.isNotBlank(password) && !nocheck) {
 				try {
 					password = decryptAES(password, encodeKey);
 				} catch (Exception e) {
