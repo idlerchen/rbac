@@ -3,7 +3,7 @@
     <div class="user-login-bg" :style="{'background-image':`url(${backgroundImage})`}"></div>
     <div class="content-wrapper">
       <h2 class="slogan">
-        欢迎使用 <br /> ICE 内容管理系统
+        欢迎使用 <br/> ICE 内容管理系统
       </h2>
       <div class="form-container">
         <h4 class="form-title">登录</h4>
@@ -12,20 +12,15 @@
             <el-row class="form-item">
               <el-col>
                 <el-form-item prop="username" :rules="[ { required: true, message: '会员名/邮箱/手机号不能为空'}]">
-                  <div class="form-line">
-                    <i class="el-icon-edit-outline input-icon"></i>
-                    <el-input placeholder="会员名/邮箱/手机号" v-model="user.username"></el-input>
-                  </div>
+                  <el-input prefix-icon="el-icon-user" placeholder="会员名/邮箱/手机号" v-model="user.username"></el-input>
                 </el-form-item>
               </el-col>
             </el-row>
-            <el-row class="form-item">
+            <el-row class="form-item mt-10">
               <el-col>
                 <el-form-item prop="password" :rules="[ { required: true, message: '密码不能为空'}]">
-                  <div class="form-line">
-                    <i class="el-icon-service input-icon"></i>
-                    <el-input type="password" placeholder="密码" v-model="user.password"></el-input>
-                  </div>
+                  <el-input prefix-icon="el-icon-lock" type="password" placeholder="密码"
+                            v-model="user.password"></el-input>
                 </el-form-item>
               </el-col>
             </el-row>
@@ -58,40 +53,42 @@
 </template>
 
 <script>
-import BasicContainer from '@vue-materials/basic-container';
-const backgroundImage =
-  'https://img.alicdn.com/tfs/TB1zsNhXTtYBeNjy1XdXXXXyVXa-2252-1500.png';
-export default {
-  components: { BasicContainer },
-  name: 'UserLogin',
+  import BasicContainer from '@vue-materials/basic-container';
 
-  data() {
-    return {
-      backgroundImage: backgroundImage,
-      user: {
-        username: '',
-        password: '',
-      },
-    };
-  },
+  const backgroundImage =
+    'https://img.alicdn.com/tfs/TB1zsNhXTtYBeNjy1XdXXXXyVXa-2252-1500.png';
+  export default {
+    components: {BasicContainer},
+    name: 'UserLogin',
 
-  created() {},
-
-  methods: {
-    submitBtn() {
-      this.$refs['form'].validate((valid) => {
-        if (valid) {
-          this.$message({
-            message: '登录成功',
-            type: 'success',
-          });
-        }
-      });
+    data() {
+      return {
+        backgroundImage: backgroundImage,
+        user: {
+          username: '',
+          password: '',
+        },
+      };
     },
-  },
-};
+
+    created() {
+    },
+
+    methods: {
+      submitBtn() {
+        this.$refs['form'].validate((valid) => {
+          if (valid) {
+            this.$message({
+              message: '登录成功',
+              type: 'success',
+            });
+          }
+        });
+      },
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-@import './UserLogin.scss';
+  @import './UserLogin.scss';
 </style>

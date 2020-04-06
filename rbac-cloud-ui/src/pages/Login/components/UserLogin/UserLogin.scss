@@ -47,26 +47,6 @@
     position: relative;
     flex-direction: column;
   }
-  .form-line {
-    position: relative;
-    display: flex;
-    align-items: center;
-    &:after {
-      content: '';
-      position: absolute;
-      bottom: 3px;
-      left: 0;
-      width: 100%;
-      box-sizing: border-box;
-      border-width: 1px;
-      border-style: solid;
-      border-top: 0;
-      border-left: 0;
-      border-right: 0;
-      border-color: #dcdcdc;
-      border-radius: 0;
-    }
-  }
   .el-input {
     width: 240px;
     input {
