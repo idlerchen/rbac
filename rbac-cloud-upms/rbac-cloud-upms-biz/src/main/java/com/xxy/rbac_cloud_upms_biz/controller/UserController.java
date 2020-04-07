@@ -1,5 +1,6 @@
 package com.xxy.rbac_cloud_upms_biz.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.xxy.common.core.util.R;
 import com.xxy.common.security.annotation.Inner;
@@ -41,6 +42,29 @@ public class UserController {
             return R.failed(String.format("用户信息为空 %s", username));
         }
         return R.ok(userService.getUserInfo(user));
+    }
+
+    /**
+     *
+     * @param id
+     * @return
+     */
+    @GetMapping("/{id}")
+    public R user(@PathVariable Integer id){
+        return R.ok(userService);
+    }
+
+    /**
+     * 根据用户名查询用户信息
+     *
+     * @param username 用户名
+     * @return
+     */
+    @GetMapping("/details/{username}")
+    public R user(@PathVariable String username) {
+        SysUser condition = new SysUser();
+        condition.setUsername(username);
+        return R.ok(userService.getOne(new QueryWrapper<>(condition)));
     }
 
 }
