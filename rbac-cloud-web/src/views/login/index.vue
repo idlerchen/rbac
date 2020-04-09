@@ -5,7 +5,7 @@
       <div class="user-login-bg" :style="{'background-image':`url(${backgroundImage})`}"></div>
       <div class="content-wrapper">
         <h2 class="slogan">
-          欢迎使用 <br/> ICE 内容管理系统
+          欢迎使用 <br/> 权限管理系统
         </h2>
         <div class="form-container">
           <h4 class="form-title">登录</h4>
@@ -30,6 +30,20 @@
                       type="password"
                       placeholder="密码"
                       v-model="user.password"></el-input>
+                  </el-form-item>
+                </el-col>
+              </el-row>
+              <el-row class="form-item mt-10">
+                <el-col>
+                  <el-form-item prop="code" :rules="[ { required: true, message: '验证码不能为空'}]">
+                    <el-input
+                      prefix-icon="el-icon-view"
+                      placeholder="验证码"
+                      v-model="user.code">
+                      <template slot="suffix">
+                        <img class="code-img" src="https://marketplace-res-cbc-cn.obs.myhwclouds.com/app/logo/20181009/98dea972-8855-4348-9ef4-92bafb247ea4/1810091217084675.jpg" alt="">
+                      </template>
+                    </el-input>
                   </el-form-item>
                 </el-col>
               </el-row>
@@ -73,7 +87,8 @@ export default {
       backgroundImage: backgroundImage,
       user: {
         username: '',
-        password: ''
+        password: '',
+        code: ''
       }
     }
   },
@@ -84,9 +99,13 @@ export default {
     submitBtn() {
       this.$refs.form.validate((valid) => {
         if (valid) {
-          this.$message({
-            message: '登录成功',
-            type: 'success'
+          this.$store.dispatch('user/login', this.user).then(() => {
+            this.$router.push({ path: '/' })
+            this.$message({
+              message: '登录成功',
+              type: 'success'
+            })
+          }).catch(() => {
           })
         }
       })
@@ -215,6 +234,10 @@ export default {
         }
       }
     }
+  }
+  .code-img {
+    height: 38px;
+    margin-top: 1px;
   }
 
 </style>

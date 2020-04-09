@@ -1,8 +1,8 @@
 {
-  "name": "vue-admin-template",
+  "name": "rbac",
   "version": "4.2.1",
-  "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
-  "author": "Pan <panfree23@gmail.com>",
+  "description": "A Role-Based Access Control with Element UI & axios & iconfont & permission control & lint",
+  "author": "zxy <zhang.xiaoyu@zxylucky.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",
